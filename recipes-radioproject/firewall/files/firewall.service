@@ -1,0 +1,12 @@
+[Unit]
+Description= Gestion des règles Iptables 
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/etc/init.d/firewall.sh start
+ExecStop=/etc/init.d/firewall.sh stop
+
+[Install]
+Alias=firewall
