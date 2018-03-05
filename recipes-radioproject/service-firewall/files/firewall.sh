@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/sh 
 
 #Mon superbe firewall qu'il est à moi (rip johnny) 
 # Il accepte 1 paramètre : "start","stop" ou "status" 

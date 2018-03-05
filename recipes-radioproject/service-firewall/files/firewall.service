@@ -5,8 +5,8 @@ After=network.target
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/etc/init.d/firewall.sh start
-ExecStop=/etc/init.d/firewall.sh stop
+ExecStart=/usr/bin/firewall.sh start
+ExecStop=/usr/bin/firewall.sh stop
 
 [Install]
 Alias=firewall
